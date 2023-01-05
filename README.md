@@ -26,8 +26,8 @@ https://go.dev/doc/install
 tinygo version 0.26.0 darwin/amd64 (using go version go1.19 and LLVM version 14.0.0)
 
 ### Hardware
-Arduino Board
-https://amzn.to/3VKozAS
+Arduino MKR WiFi 1010
+https://amzn.to/3CnVXqi
 
 HC-SR04 Sensor
 https://amzn.to/3G7v62V
@@ -37,7 +37,7 @@ https://amzn.to/3Q7PKnW
 
 # Installation
 example
-tinygo flash -port /dev/cu.usbmodem11301 -target=arduino api/main/board.go
+tinygo flash -port /dev/cu.usbmodem11301 -target=arduino-mkrwifi1010 api/main/board.go
 
 # Contributing
 Pull requests are def welcomed. Please open an issue first to discuss what you would like to change.
